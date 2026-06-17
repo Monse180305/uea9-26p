@@ -1,6 +1,7 @@
 body{
     background-color: #e7d7c8;
     margin: 30px;
+    font-family: sans-serif;
 }
 
 header{
@@ -18,4 +19,15 @@ a:link, a:visited {
 
 footer{
     background-color: #e7d7cc;
+}
+
+.titulo-header{
+    padding: 0px;
+    margin: 0px;
+}
+
+.subtitulo-header{
+    padding: 0px;
+    margin-top: 0px;
+    margin-bottom: 20px;
 }
