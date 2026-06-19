@@ -9,6 +9,7 @@ header{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    min-height: 70px;
 }
 
 nav{
@@ -35,7 +36,7 @@ footer{
 }
 
 .logo img{
-    height: 150px;
+    height: 140px;
 }
 
 .titulo-header{
@@ -43,6 +44,8 @@ footer{
     margin: 0px;
 }
 
-.subtitulo-header{
-    
-}
+@media (max-width: 700px){
+    header{
+        flex-direction: column;
+    }
+};
