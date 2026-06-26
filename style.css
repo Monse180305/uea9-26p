@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Barriecito&family=Barrio&family=Rubik+Microbe&display=swap');
+
 * {
     padding: 0;
     margin: 0;
@@ -90,7 +93,7 @@ footer {
 .titulo-header {
     padding: 0;
     margin: 0;
-    font-family: 'Impact';
+    font-family: 'Anton', sans-serif;
     text-transform: uppercase;
     font-size: 2.5rem;
 }
